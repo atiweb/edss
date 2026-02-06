@@ -1,4 +1,5 @@
 
+
   
 
 # EDSS Calculator
@@ -11,7 +12,7 @@
 
   
 
-The EDSS scoring table was originally developed by **John F. Kurtzke** in 1983. The Neurostatus-EDSS™ was subsequently developed, standardized, and adapted from the Kurtzke’s version.
+The EDSS scoring table was originally developed by **John F. Kurtzke** in 1983. The Neurostatus-EDSS™ was subsequently developed, standardized, and adapted from the Kurtzke's version.
 
 The Neurostatus-EDSS™ qualifies disability in seven Functional Systems (FS) plus ambulation and allows neurologists to assign a Functional System Score (FSS) in each of these.
 
@@ -61,7 +62,13 @@ const  edssResult = edss.calculateEDSS(1,2,1,3,1,4,2,1);
 
 Demo is avaliable on GitHub Pages for this repository, [right here](https://adobrasinovic.github.io/edss/).
 
-  
+## Other implementations
+
+| Language | Repository |
+|----------|------------|
+| PHP | [atiweb/edss-in-php](https://github.com/atiweb/edss-in-php) |
+| Kotlin | [atiweb/edss-in-kotlin](https://github.com/atiweb/edss-in-kotlin) |
+| Flutter/Dart | [atiweb/edss-in-flutter](https://github.com/atiweb/edss-in-flutter) |
 
 ## About the project
 
@@ -103,7 +110,7 @@ Arguments in order are:
 
   
 
-EDSS range is 0 to 10, in half point increments. Values above 5 are calculated solely based on ambulation score. Values from 0 to 5 are more complex, I relied on **"Scoring table for a standardised, quantified neurological examination and assessment of Kurtzke‘s Functional Systems and Expanded Disability Status Scale in Multiple Sclerosis"** by **Ludwig Kappos, MD** from **University Hospital Basel, Switzerland.**
+EDSS range is 0 to 10, in half point increments. Values above 5 are calculated solely based on ambulation score. Values from 0 to 5 are more complex, I relied on **"Scoring table for a standardised, quantified neurological examination and assessment of Kurtzke's Functional Systems and Expanded Disability Status Scale in Multiple Sclerosis"** by **Ludwig Kappos, MD** from **University Hospital Basel, Switzerland.**
 
   
 
